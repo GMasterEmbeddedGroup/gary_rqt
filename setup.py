@@ -4,7 +4,7 @@ package_name = 'gary_rqt'
 
 setup(
     name=package_name,
-    version='0.0.0',
+    version='0.0.0',  # TODO: 更新版本号, 以及 package.xml 的版本号
     packages=[package_name],
     data_files=[
         ('share/ament_index/resource_index/packages',
@@ -13,13 +13,14 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='gmaster',
+    maintainer='juntong',
     maintainer_email='juntong_2021@outlook.com',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
-    entry_points={
+    entry_points={  # NOTE: 节点登记在这个列表里, 格式为: "{节点名} = {python模块}.{python文件}:{入口函数}"
         'console_scripts': [
+
         ],
     },
 )
