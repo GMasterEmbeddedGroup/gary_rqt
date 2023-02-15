@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             #  NOTE: 节点登记在这个列表里, 格式为: "{节点名} = {python模块}.{python文件}:{入口函数}"
+
         ],
     },
 )
