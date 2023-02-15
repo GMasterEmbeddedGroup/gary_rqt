@@ -1,6 +1,8 @@
 """
 为前端提供后台服务
 """
+from __future__ import annotations
+
 import rclpy
 from rclpy import node
 from std_msgs import msg

@@ -1,6 +1,7 @@
 """
 
 """
+from __future__ import annotations
 
 try:
     from . import window_ui
