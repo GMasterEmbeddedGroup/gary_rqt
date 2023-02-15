@@ -1,0 +1,4 @@
+pytest
+PyQt6
+setuptools
+PyYAML
