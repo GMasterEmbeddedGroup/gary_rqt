@@ -4,7 +4,7 @@ package_name = 'gary_rqt'
 
 setup(
     name=package_name,
-    version='0.0.0',
+    version='0.3.0-alpha',
     packages=[package_name],
     data_files=[
         ('share/ament_index/resource_index/packages',
@@ -13,7 +13,7 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='gmaster',
+    maintainer='juntong20XX',
     maintainer_email='juntong_2021@outlook.com',
     description='TODO: Package description',
     license='TODO: License declaration',
