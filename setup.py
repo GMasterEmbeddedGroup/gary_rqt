@@ -4,7 +4,7 @@ package_name = 'gary_rqt'
 
 setup(
     name=package_name,
-    version='0.3.0a0',
+    version='0.3.0',
     packages=[package_name],
     data_files=[
         ('share/ament_index/resource_index/packages',
